@@ -1,0 +1,15 @@
+[package]
+name = "shellme"
+version = "0.6.0"
+authors = ["https://github.com/loverdos"]
+edition = "2021"
+readme = "README.md"
+
+[lib]
+name = "shellme"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+
+is_executable = "1.0.1"
+which = "5.0.0"
